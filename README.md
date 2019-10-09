@@ -17,6 +17,8 @@ Alla djur har ett eget namn och en hunger nivå. Hunger nivån börjar alltid p�
 
 Skapa en lista med olika djur som finns i djurparken, minst ett av varje typ av djur - men gärna fler.
 
+När man kör programmet ska alla djur, deras typ och deras namn skrivas ut på skärmen.
+
 ### Del 2 ⭐️⭐️
 
 Varje dag vill djurskötarna see vilka djur som behöver matas, skriv ut Main i Program klassen som kan kan simulera ett förlopp av dagar och matning av varje djur.
@@ -38,6 +40,20 @@ while (true) {
   Console.ReadKey();
 }
 
+```
+
+För varje dag ska utskriften se ut ungefär såhär:
+```
+Det är dag 1:
+Elefanten Betty behöver inte äta.
+Giraffen Pelle fick äta blad, det finns 49 blad kvar.
+```
+När det inte finns mer mat kvar programmet säga ifrån och avslutas ska ungefär detta ske:
+```
+Det är dag 143:
+Elefanten Betty behöver inte äta.
+Sälen Bengt behövde få mat, men det finns inget kött kvar!
+SLUT
 ```
 
 Hungernivån på varje individuellt djur ska öka med 1 varje dag. Varje djur är hungriga när nivån når följande nivåer:
