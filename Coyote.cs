@@ -7,5 +7,6 @@ class Coyote : Animal
         this.Name = coyoteName;
         this.HungerLvl = coyoteHunger;
         this.Diet = coyoteDiet;
+        this.Type = "Coyote";
     }
 }

@@ -7,5 +7,6 @@ class Giraffe : Animal
         this.Name = giraffeName;
         this.HungerLvl = giraffeHunger;
         this.Diet = giraffeDiet;
+        this.Type = "Giraffe";
     }
 }

@@ -7,5 +7,6 @@ class Elephant : Animal
         this.Name = elephantName;
         this.HungerLvl = elephantHunger;
         this.Diet = elephantDiet;
+        this.Type = "Elephant";
     }
 }

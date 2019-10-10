@@ -7,6 +7,7 @@ class Bear : Animal
         this.Name = bearName;
         this.HungerLvl = bearHunger;
         this.Diet = bearDiet;
+        this.Type = "Bear";
     }
     
 }

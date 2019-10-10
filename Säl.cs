@@ -1,11 +1,12 @@
 using System;
 
-class Säl : Animal
+class Seal : Animal
 {
-    public Säl(string sälName, int sälHunger, string sälDiet)
+    public Seal(string sealName, int sealHunger, string sealDiet)
     {
-        this.Name = sälName;
-        this.HungerLvl = sälHunger;
-        this.Diet = sälDiet;
+        this.Name = sealName;
+        this.HungerLvl = sealHunger;
+        this.Diet = sealDiet;
+        this.Type = "Seal";
     }
 }

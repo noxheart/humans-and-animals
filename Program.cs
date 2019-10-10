@@ -4,13 +4,11 @@ using System.Collections.Generic;
 namespace humans_and_animals
 {
     class Program
-    {
+    {   
         static void Main(string[] args)
         {
-            public string animalType;
-            
             List<Animal> animalList = new List<Animal>();
-            Säl mySeals = new Säl("Sälis", 0, "kött");
+            Seal mySeals = new Seal("Sälis", 0, "kött");
             animalList.Add(mySeals);
             Bear myBears = new Bear("Björne", 0, "kött & blad");
             animalList.Add(myBears);
@@ -25,7 +23,7 @@ namespace humans_and_animals
 
             foreach (var item in animalList)
             {
-                Console.WriteLine("Namn: {0}.| Diet: {1}.| Hungrighet: {2}", item.Name, item.Diet, item.HungerLvl);
+                Console.WriteLine("Animal: {0} |Name: {1} | Diet: {2} | Hungerlevel: {3}",item.Type, item.Name, item.Diet, item.HungerLvl);
             }
 
 

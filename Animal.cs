@@ -5,6 +5,7 @@ class Animal
     private string name;
     private int hungerLvl = 0;
     private string diet;
+    private string type;
 
     
 
@@ -22,6 +23,12 @@ class Animal
     {
         get { return diet; }
         set { diet = value; }
+    }
+
+    public string Type
+    {
+        get { return type; }
+        set { type = value; }
     }
 
 }
