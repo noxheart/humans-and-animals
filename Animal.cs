@@ -6,7 +6,8 @@ class Animal
     private int hungerLvl = 0;
     private string diet;
     private string type;
-
+    private int feedTime;
+    
     
 
     public string Name 
@@ -31,4 +32,14 @@ class Animal
         set { type = value; }
     }
 
+    public int FeedTime 
+    {
+        get { return feedTime; }
+        set { feedTime = value; }
+    }
+
+    
+
+    
+    
 }
